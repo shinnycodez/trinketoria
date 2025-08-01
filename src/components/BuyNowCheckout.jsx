@@ -417,20 +417,20 @@ const BuyNowCheckout = () => {
 
               {form.paymentMethod === 'EasyPaisa' && (
                 <div className="mt-6 p-4 border border-blue-300 bg-blue-50 rounded-md">
-                  <h3 className="text-base sm:text-lg font-semibold mb-3">EasyPaisa Payment Details</h3>
+                  <h3 className="text-base sm:text-lg font-semibold mb-3">Advance Payment Details</h3>
                   <p className="text-gray-700 mb-4 text-sm sm:text-base">
                     Please send the total amount of PKR {total.toLocaleString()} to our EasyPaisa/Jazzcash/Sadapay account:
                   </p>
                   <ul className="list-disc list-inside text-gray-800 mb-4 text-sm sm:text-base">
                     <li><strong>Account Name:</strong> Umama/Amama </li>
-                    <li><strong>EasyPaisa Number:</strong> 03307291858</li>
+                    <li><strong>Account Number:</strong> 03307291858</li>
                   </ul>
                   <p className="text-gray-700 mb-4 text-sm sm:text-base">
                     After making the payment, please upload a screenshot of the transaction as proof of payment.
                   </p>
                   <div>
                     <label htmlFor="bankTransferProof" className="block text-sm font-medium text-gray-700 mb-1">
-                      Upload EasyPaisa Transaction Screenshot*
+                      Upload Transaction Screenshot*
                     </label>
                     <input
                       id="bankTransferProof"

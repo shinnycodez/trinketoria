@@ -395,7 +395,7 @@ const CheckoutPage = () => {
 
               {form.paymentMethod === 'EasyPaisa' && (
                 <div className="mt-6 p-4 border border-blue-300 bg-blue-50 rounded-md">
-                  <h3 className="text-base sm:text-lg font-semibold mb-3">EasyPaisa Transfer Details</h3>
+                  <h3 className="text-base sm:text-lg font-semibold mb-3">Advance Transfer Details</h3>
                   <p className="text-gray-700 text-sm sm:text-base mb-4">
                     Please transfer the total amount of PKR {total.toLocaleString()} to our EasyPaisa/Jazzcash/Sadapay account:
                   </p>
