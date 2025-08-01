@@ -18,9 +18,15 @@ function Home() {
             <HeroBanner />
             <FeaturedCategories />
             <ShopTheLook />
-                        <div>
-                  <ContactForm/>
+
+            <div className="my-8 text-center text-lg font-semibold text-pink-900">
+              For custom orders, DM me the reference picture — I'd love to bring it to life.
             </div>
+
+            <div>
+              <ContactForm />
+            </div>
+            
             <Footer />
           </div>
         </div>

@@ -51,6 +51,12 @@ const categories = [
     imageUrl: "https://scontent.flhe3-2.fna.fbcdn.net/v/t1.15752-9/523944160_1537825047593416_8358288462340969374_n.jpg?stp=dst-jpg_p480x480_tt6&_nc_cat=106&ccb=1-7&_nc_sid=0024fc&_nc_ohc=C0hGC38-XoMQ7kNvwHqi_fJ&_nc_oc=AdnZlF38rfhRUmD2wzBVGyXH5ywcoQd1GuLXdkwphf2rA8x_gVLaOHWyvEcliLtC1Vo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flhe3-2.fna&oh=03_Q7cD2wFEeecSdftvToyryWCyaTRKg0cwdFj74_0no4W3MwsF2g&oe=68B3E2FB",
         link: "Bag charm"
   },
+            {
+    id: 8,
+    title: "y2k bracelets ⋆⭒˚.⋆",
+    imageUrl: "https://scontent.flhe7-1.fna.fbcdn.net/v/t1.15752-9/525896355_744976595166400_2593779964098920281_n.jpg?stp=dst-jpg_p2048x2048_tt6&_nc_cat=104&ccb=1-7&_nc_sid=0024fc&_nc_ohc=rs9CyTy2iu0Q7kNvwFNxPS_&_nc_oc=AdkPYx22dpDRDiorK5MHDAqUFHjgxjygj73yc0EYtkvIKz6xrZE7eMVPxLV0O0prFwc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flhe7-1.fna&oh=03_Q7cD2wFXTQ0sbrwuEoPvLCsvYRuETpJjm2-89Hsr2_y3lxasDA&oe=68B42A8B",
+        link: "y2k bracelets"
+  },
 
 ];
 

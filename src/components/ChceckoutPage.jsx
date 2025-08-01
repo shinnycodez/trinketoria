@@ -70,7 +70,7 @@ const CheckoutPage = () => {
   }, []);
 
   const subtotal = cartItems.reduce((sum, item) => sum + item.price * item.quantity, 0);
-  const shippingCost = 230;
+  const shippingCost = 300;
   const total = subtotal + shippingCost;
 
   const handleChange = (e) => {
@@ -369,7 +369,7 @@ const CheckoutPage = () => {
                   <div className="ml-3">
                     <p className="font-medium text-gray-900">Standard Delivery</p>
                     <p className="text-sm text-gray-500">
-                      PKR 230 - Delivery in 4-5 business days
+                      PKR 300 - Delivery in 4-5 business days
                     </p>
                   </div>
                 </label>
@@ -397,11 +397,11 @@ const CheckoutPage = () => {
                 <div className="mt-6 p-4 border border-blue-300 bg-blue-50 rounded-md">
                   <h3 className="text-base sm:text-lg font-semibold mb-3">EasyPaisa Transfer Details</h3>
                   <p className="text-gray-700 text-sm sm:text-base mb-4">
-                    Please transfer the total amount of PKR {total.toLocaleString()} to our EasyPaisa account:
+                    Please transfer the total amount of PKR {total.toLocaleString()} to our EasyPaisa/Jazzcash/Sadapay account:
                   </p>
                   <ul className="list-disc list-inside text-gray-800 text-sm sm:text-base mb-4">
-                    <li><strong>Account Name:</strong> </li>
-                    <li><strong>Account Number:</strong> Maham</li>
+                    <li><strong>Account Name:</strong>03307291858 </li>
+                    <li><strong>Account Number:</strong> Umama/Amama</li>
                   </ul>
                   <p className="text-gray-700 text-sm sm:text-base mb-4">
                     After making the transfer, please upload a screenshot of the transaction as proof of payment.
