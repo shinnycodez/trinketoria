@@ -210,7 +210,7 @@ const BuyNowCheckout = () => {
     return (
       <>
         <Header />
-        <div className="min-h-screen bg-[#fceadc] flex items-center justify-center p-4">
+        <div className="min-h-screen bg-[#fdcddb] flex items-center justify-center p-4">
           <div className="bg-white p-8 rounded-lg shadow-md max-w-md w-full text-center">
             <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-black mx-auto mb-4"></div>
             <h2 className="text-xl font-bold mb-4">Loading Product...</h2>
@@ -230,7 +230,7 @@ const BuyNowCheckout = () => {
   return (
     <>
       <Header />
-      <div className="min-h-screen bg-[#fefaf9] py-8 px-4 sm:px-6 lg:px-8">
+      <div className="min-h-screen bg-[#fdcddb] py-8 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           {/* Breadcrumbs */}
           <nav className="flex mb-8" aria-label="Breadcrumb">

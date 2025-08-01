@@ -10,9 +10,9 @@ const categories = [
   },
   {
     id: 1,
-    title: "Floral rings ⋆｡𖦹°",
+    title: "Rings ⋆｡𖦹°",
     imageUrl: "https://scontent.flhe3-1.fna.fbcdn.net/v/t1.15752-9/525626254_1949798555780688_3894071762863773315_n.jpg?stp=dst-jpg_p2048x2048_tt6&_nc_cat=108&ccb=1-7&_nc_sid=0024fc&_nc_ohc=EN4hQH7IDLwQ7kNvwGg1kdD&_nc_oc=AdnW7dDX7YnERnWTHgz_6o-1AlOEPKizyL5lINtsKIl28iTU6SuJYFakBmXq37uVWJg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flhe3-1.fna&oh=03_Q7cD2wH_cmdINuO50skkbNiNdmiLPAvDH6bhR8ORfIzaypN7Ng&oe=68B3D2F4",
-      link: "Floral rings",
+      link: "rings",
   },
 
 

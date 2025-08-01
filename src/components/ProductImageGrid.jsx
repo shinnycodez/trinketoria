@@ -7,11 +7,11 @@ const ProductImageGrid = ({ images }) => {
 
   return (
     <div className="w-full bg-[
-#fefaf9] rounded-xl">
+#fdcddb] rounded-xl">
       {/* Main Image */}
       {mainImage && (
         <div
-          className="w-full bg-center bg-no-repeat bg-contain bg-[#fcead] rounded-t-xl mb-4 flex justify-center items-center"
+          className="w-full bg-center bg-no-repeat bg-contain bg-[#fdcddb] rounded-t-xl mb-4 flex justify-center items-center"
           style={{ backgroundImage: `url("${mainImage}")` }}
         >
           <div className="aspect-video w-full max-h-[600px] h-[50vh] sm:h-[70vh] md:h-[500px]"></div>
@@ -35,7 +35,7 @@ const ProductImageGrid = ({ images }) => {
                 <img
                   src={image}
                   alt={`Thumbnail ${index + 1}`}
-                  className="w-full h-full object-contain bg-[#FFDCDC]"
+                  className="w-full h-full object-contain bg-[#fdcddb]"
                 />
               </div>
             ))}

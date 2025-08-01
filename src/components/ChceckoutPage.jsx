@@ -229,7 +229,7 @@ const CheckoutPage = () => {
   return (
     <>
       <Header />
-      <div className="min-h-screen bg-[#FFF5EE] py-8 px-4 sm:px-6 lg:px-8">
+      <div className="min-h-screen bg-[#fdcddb] py-8 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           {/* Breadcrumbs */}
           <nav className="flex mb-8" aria-label="Breadcrumb">
