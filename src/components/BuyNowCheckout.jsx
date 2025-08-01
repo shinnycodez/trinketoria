@@ -47,7 +47,7 @@ const BuyNowCheckout = () => {
   }, []);
 
   const subtotal = cartItems.reduce((sum, item) => sum + item.price * (item.quantity || 1), 0);
-  const shippingCost = 230;
+  const shippingCost = 300;
   const total = subtotal + shippingCost;
 
   const handleChange = (e) => {
@@ -379,7 +379,7 @@ const BuyNowCheckout = () => {
                   <div className="ml-3">
                     <p className="font-medium text-gray-900 text-sm sm:text-base">Standard Delivery</p>
                     <p className="text-xs sm:text-sm text-gray-500">
-                      PKR 230 - Delivery in 4-5 business days
+                      PKR 300 - Delivery in 4-5 business days
                     </p>
                   </div>
                 </label>
@@ -402,7 +402,7 @@ const BuyNowCheckout = () => {
                 </label>
 
                 {/* Cash on Delivery (COD) Option */}
-                <label className="flex items-center p-4 border rounded-md hover:border-black cursor-pointer">
+{/*                 <label className="flex items-center p-4 border rounded-md hover:border-black cursor-pointer">
                   <input
                     type="radio"
                     name="paymentMethod"
@@ -412,7 +412,7 @@ const BuyNowCheckout = () => {
                     className="h-4 w-4 text-black focus:ring-black border-gray-300"
                   />
                   <span className="ml-3 font-medium text-gray-900 text-sm sm:text-base">Cash on Delivery</span>
-                </label>
+                </label> */}
               </div>
 
               {form.paymentMethod === 'EasyPaisa' && (
