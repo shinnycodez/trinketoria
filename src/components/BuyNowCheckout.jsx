@@ -18,7 +18,7 @@ const BuyNowCheckout = () => {
     region: '',
     country: '',
     shippingMethod: 'Standard Delivery',
-    paymentMethod: 'EasyPaisa', // Default to EasyPaisa, will add COD option
+    paymentMethod: 'advance payment', // Default to advance payment, will add COD option
     promoCode: '',
     notes: '',
   });
@@ -62,8 +62,8 @@ const BuyNowCheckout = () => {
       setErrors(prev => ({ ...prev, [name]: '' }));
     }
     
-    // Clear the Base64 string if payment method changes from EasyPaisa
-    if (name === 'paymentMethod' && value !== 'EasyPaisa') {
+    // Clear the Base64 string if payment method changes from advance payment
+    if (name === 'paymentMethod' && value !== 'advance payment') {
       setBankTransferProofBase64(null);
       setErrors(prev => ({ ...prev, bankTransferProof: '' }));
     }
@@ -121,8 +121,8 @@ const BuyNowCheckout = () => {
       newErrors.phone = 'Please enter a valid phone number (at least 7 digits)';
     }
 
-    if (form.paymentMethod === 'EasyPaisa' && !bankTransferProofBase64) {
-      newErrors.bankTransferProof = 'Please upload a screenshot of your EasyPaisa transaction.';
+    if (form.paymentMethod === 'advance payment' && !bankTransferProofBase64) {
+      newErrors.bankTransferProof = 'Please upload a screenshot of your advance payment transaction.';
     }
 
     setErrors(newErrors);
@@ -178,7 +178,7 @@ const BuyNowCheckout = () => {
       createdAt: new Date(),
       status: 'processing',
       buyNow: true,
-      bankTransferProofBase64: form.paymentMethod === 'EasyPaisa' ? bankTransferProofBase64 : null,
+      bankTransferProofBase64: form.paymentMethod === 'advance payment' ? bankTransferProofBase64 : null,
     };
 
     try {
@@ -388,17 +388,17 @@ const BuyNowCheckout = () => {
               <h2 className="text-lg sm:text-xl font-semibold mt-8 mb-6 pb-2 border-b">Payment Method</h2>
               
               <div className="space-y-4">
-                {/* EasyPaisa Option */}
+                {/* advance payment Option */}
                 <label className="flex items-center p-4 border rounded-md hover:border-black cursor-pointer">
                   <input
                     type="radio"
                     name="paymentMethod"
-                    value="EasyPaisa"
-                    checked={form.paymentMethod === 'EasyPaisa'}
+                    value="advance payment"
+                    checked={form.paymentMethod === 'advance payment'}
                     onChange={handleChange}
                     className="h-4 w-4 text-black focus:ring-black border-gray-300"
                   />
-                  <span className="ml-3 font-medium text-gray-900 text-sm sm:text-base">EasyPaisa</span>
+                  <span className="ml-3 font-medium text-gray-900 text-sm sm:text-base">advance payment</span>
                 </label>
 
                 {/* Cash on Delivery (COD) Option */}
@@ -415,11 +415,11 @@ const BuyNowCheckout = () => {
                 </label> */}
               </div>
 
-              {form.paymentMethod === 'EasyPaisa' && (
+              {form.paymentMethod === 'advance payment' && (
                 <div className="mt-6 p-4 border border-blue-300 bg-blue-50 rounded-md">
                   <h3 className="text-base sm:text-lg font-semibold mb-3">Advance Payment Details</h3>
                   <p className="text-gray-700 mb-4 text-sm sm:text-base">
-                    Please send the total amount of PKR {total.toLocaleString()} to our EasyPaisa/Jazzcash/Sadapay account:
+                    Please send the total amount of PKR {total.toLocaleString()} to our Easypaisa/Jazzcash/Sadapay account:
                   </p>
                   <ul className="list-disc list-inside text-gray-800 mb-4 text-sm sm:text-base">
                     <li><strong>Account Name:</strong> Umama/Amama </li>

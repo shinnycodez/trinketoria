@@ -26,7 +26,7 @@ const CheckoutPage = () => {
     region: '',
     country: '',
     shippingMethod: 'Standard Delivery',
-    paymentMethod: 'EasyPaisa',
+    paymentMethod: 'advance payment',
     promoCode: '',
     notes: '',
   });
@@ -82,8 +82,8 @@ const CheckoutPage = () => {
     if (errors[name]) {
       setErrors(prev => ({ ...prev, [name]: '' }));
     }
-    // Clear the Base64 string if payment method changes from EasyPaisa
-    if (name === 'paymentMethod' && value !== 'EasyPaisa') {
+    // Clear the Base64 string if payment method changes from advance payment
+    if (name === 'paymentMethod' && value !== 'advance payment') {
       setBankTransferProofBase64(null);
     }
   };
@@ -125,8 +125,8 @@ const CheckoutPage = () => {
       newErrors.email = 'Please enter a valid email address';
     }
 
-    if (form.paymentMethod === 'EasyPaisa' && !bankTransferProofBase64) {
-      newErrors.bankTransferProof = 'Please upload a screenshot of your EasyPaisa transfer.';
+    if (form.paymentMethod === 'advance payment' && !bankTransferProofBase64) {
+      newErrors.bankTransferProof = 'Please upload a screenshot of your advance payment transfer.';
     }
 
     setErrors(newErrors);
@@ -177,7 +177,7 @@ const CheckoutPage = () => {
       total,
       createdAt: new Date(),
       status: 'processing',
-      bankTransferProofBase64: form.paymentMethod === 'EasyPaisa' ? bankTransferProofBase64 : null,
+      bankTransferProofBase64: form.paymentMethod === 'advance payment' ? bankTransferProofBase64 : null,
     };
 
     try {
@@ -378,7 +378,7 @@ const CheckoutPage = () => {
               <h2 className="text-lg sm:text-xl font-semibold mt-8 mb-6 pb-2 border-b">Payment Method</h2>
 
               <div className="space-y-4">
-                {['EasyPaisa'].map(method => (
+                {['advance payment'].map(method => (
                   <label key={method} className="flex items-center p-4 border rounded-md hover:border-black cursor-pointer">
                     <input
                       type="radio"
@@ -393,11 +393,11 @@ const CheckoutPage = () => {
                 ))}
               </div>
 
-              {form.paymentMethod === 'EasyPaisa' && (
+              {form.paymentMethod === 'advance payment' && (
                 <div className="mt-6 p-4 border border-blue-300 bg-blue-50 rounded-md">
                   <h3 className="text-base sm:text-lg font-semibold mb-3">Advance Transfer Details</h3>
                   <p className="text-gray-700 text-sm sm:text-base mb-4">
-                    Please transfer the total amount of PKR {total.toLocaleString()} to our EasyPaisa/Jazzcash/Sadapay account:
+                    Please transfer the total amount of PKR {total.toLocaleString()} to our Easypaisa/Jazzcash/Sadapay account:
                   </p>
                   <ul className="list-disc list-inside text-gray-800 text-sm sm:text-base mb-4">
                     <li><strong>Account Name:</strong>03307291858 </li>
@@ -408,7 +408,7 @@ const CheckoutPage = () => {
                   </p>
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-1">
-                      Upload EasyPaisa Transfer Screenshot*
+                      Upload advance payment Transfer Screenshot*
                     </label>
                     <input
                       type="file"
