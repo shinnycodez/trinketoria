@@ -5,13 +5,13 @@ const categories = [
     {
     id: 3,
     title: " Floral Bracelets ˚⊹♡",
-    imageUrl: "https://scontent.flhe3-2.fna.fbcdn.net/v/t1.15752-9/524337579_1922991248240764_8981366940610896235_n.jpg?stp=dst-jpg_p2048x2048_tt6&_nc_cat=106&ccb=1-7&_nc_sid=0024fc&_nc_ohc=XtG9AnxezDIQ7kNvwEsLg2q&_nc_oc=Adn4opNRVL_rBbZavo2ZhZV30QJrzI3FCzs4MBKgwyDLVbomuwGTOCY8o3zyql6N7j4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flhe3-2.fna&oh=03_Q7cD2wFZcg8s7je0aR6uWPHFRd6ZwJEZ-00f9tHxHuCXcDnajg&oe=68B3F7F7",
+    imageUrl: "https://pbs.twimg.com/media/GznKYQ5XsAAVQaR?format=jpg&name=900x900",
     link: "Floral bracelets"
   },
   {
     id: 1,
     title: "Rings ⋆｡𖦹°",
-    imageUrl: "https://scontent.flhe3-1.fna.fbcdn.net/v/t1.15752-9/525626254_1949798555780688_3894071762863773315_n.jpg?stp=dst-jpg_p2048x2048_tt6&_nc_cat=108&ccb=1-7&_nc_sid=0024fc&_nc_ohc=EN4hQH7IDLwQ7kNvwGg1kdD&_nc_oc=AdnW7dDX7YnERnWTHgz_6o-1AlOEPKizyL5lINtsKIl28iTU6SuJYFakBmXq37uVWJg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flhe3-1.fna&oh=03_Q7cD2wH_cmdINuO50skkbNiNdmiLPAvDH6bhR8ORfIzaypN7Ng&oe=68B3D2F4",
+    imageUrl: "https://pbs.twimg.com/media/GznKYQnWIAAiRe2?format=jpg&name=900x900",
       link: "rings",
   },
 
@@ -24,37 +24,37 @@ const categories = [
       {
     id: 2,
     title: "Earings ˚⋆𐙚｡",
-    imageUrl: "https://scontent.flhe7-1.fna.fbcdn.net/v/t1.15752-9/525776315_614315461361840_1125906738024931100_n.jpg?stp=dst-jpg_p480x480_tt6&_nc_cat=101&ccb=1-7&_nc_sid=0024fc&_nc_ohc=7Iod3yIz93EQ7kNvwEPWQq6&_nc_oc=Adl3Ovd19U3TPkhORBoGKKoT_u0lO6T9T_gGM3RQzuRkPQnXpQqlX2vcpJE9dufWAVU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flhe7-1.fna&oh=03_Q7cD2wHQocm1eJwrY-w6CPxrTgv9D-4nFvu2SSrN_eCx2-fdWQ&oe=68B3EA51",
+    imageUrl: "https://pbs.twimg.com/media/GznKYMpWoAAJGb2?format=png&name=900x900",
       link: "Earings"
   },
       {
     id: 5,
     title: "Necklace ｡°✩",
-    imageUrl:"https://scontent.flhe3-2.fna.fbcdn.net/v/t1.15752-9/524506306_653609547051178_7738732562085381202_n.jpg?stp=dst-jpg_p480x480_tt6&_nc_cat=106&ccb=1-7&_nc_sid=0024fc&_nc_ohc=_Uo3iaB7M08Q7kNvwEhQZSZ&_nc_oc=AdkfSds_Pn6Uza493L0z7clSogJvNElT4QCfB6-XlxtyM58HL7K-wFol5jFPch2fd3o&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flhe3-2.fna&oh=03_Q7cD2wE-j2f2ng4yFtHsV7SzCJ0QVqEVOrv1gUmrfEZd6akp_w&oe=68B3D888",
+    imageUrl:"https://pbs.twimg.com/media/GznKYMoWgAEXcLY?format=png&name=900x900",
      link: "Necklaces"
   },
         {
     id: 5,
     title: "Stretchable bracelets ⋆⭒˚.⋆",
-    imageUrl:"https://scontent.flhe3-2.fna.fbcdn.net/v/t1.15752-9/527727519_3685565891745610_6053742655752609220_n.jpg?stp=dst-jpg_p480x480_tt6&_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_ohc=9XFvqLebX7YQ7kNvwHYGqem&_nc_oc=AdlBOUhBo_cvQ6YVUphhZkr3Hm-G8H7STMqePsMaVMit6F1xX9bsOwBw2XleiuzXEGg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flhe3-2.fna&oh=03_Q7cD2wGh7EMsABed4dXSikh43k4wYa3k9e3htWr6AZyrxzEMqA&oe=68B3EE81",
+    imageUrl:"https://pbs.twimg.com/media/GznLG4EWoAA5oB3?format=png&name=900x900",
      link: "Stretchable bracelets"
   },
         {
     id: 6,
     title: "Phone charm ⋆⭒˚.⋆",
-    imageUrl: "https://scontent.flhe3-2.fna.fbcdn.net/v/t1.15752-9/525516472_1400593887865122_5584671540579376642_n.jpg?stp=dst-jpg_p480x480_tt6&_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_ohc=U3fhQj2voDIQ7kNvwFAblgz&_nc_oc=AdmDdb_WafJve6YA1a9a_2z4nUVtm4YDpbQiIleOceLwhs1gmMvgCESvTFexbfbJgg8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flhe3-2.fna&oh=03_Q7cD2wE8C0aSjuNiERfjGKjHXyYhCyjRCINzihNctwjSbz-HCA&oe=68B3F140",
+    imageUrl: "https://pbs.twimg.com/media/GznLNk2W8AA1csh?format=png&name=900x900",
         link: "Phone charm"
   },
           {
     id: 7,
     title: "Bag charm ⋆⭒˚.⋆",
-    imageUrl: "https://scontent.flhe3-2.fna.fbcdn.net/v/t1.15752-9/523944160_1537825047593416_8358288462340969374_n.jpg?stp=dst-jpg_p480x480_tt6&_nc_cat=106&ccb=1-7&_nc_sid=0024fc&_nc_ohc=C0hGC38-XoMQ7kNvwHqi_fJ&_nc_oc=AdnZlF38rfhRUmD2wzBVGyXH5ywcoQd1GuLXdkwphf2rA8x_gVLaOHWyvEcliLtC1Vo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flhe3-2.fna&oh=03_Q7cD2wFEeecSdftvToyryWCyaTRKg0cwdFj74_0no4W3MwsF2g&oe=68B3E2FB",
+    imageUrl: "https://pbs.twimg.com/media/GznLawHWMAA-g1L?format=png&name=900x900",
         link: "Bag charm"
   },
             {
     id: 8,
     title: "y2k bracelets ⋆⭒˚.⋆",
-    imageUrl: "https://scontent.flhe7-1.fna.fbcdn.net/v/t1.15752-9/525896355_744976595166400_2593779964098920281_n.jpg?stp=dst-jpg_p2048x2048_tt6&_nc_cat=104&ccb=1-7&_nc_sid=0024fc&_nc_ohc=rs9CyTy2iu0Q7kNvwFNxPS_&_nc_oc=AdkPYx22dpDRDiorK5MHDAqUFHjgxjygj73yc0EYtkvIKz6xrZE7eMVPxLV0O0prFwc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flhe7-1.fna&oh=03_Q7cD2wFXTQ0sbrwuEoPvLCsvYRuETpJjm2-89Hsr2_y3lxasDA&oe=68B42A8B",
+    imageUrl: "https://pbs.twimg.com/media/GznLhLpXwAAL6iv?format=jpg&name=900x900",
         link: "y2k bracelets"
   },
 
