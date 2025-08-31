@@ -94,7 +94,7 @@ function ProductGrid({ filters = {} }) {
 <div className="flex items-center gap-3">
   <p className="text-[#141414] text-[32px] font-bold">{title}</p>
   <img
-    src="https://i.postimg.cc/8kYg5MhH/IMG-20250831-225219-475.jpg"
+    src="https://i.postimg.cc/fWdQVkBQ/image.png"
     alt="category icon"
     className="w-15 h-25 object-contain"
   />
