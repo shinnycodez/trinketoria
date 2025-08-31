@@ -94,7 +94,7 @@ function ProductGrid({ filters = {} }) {
 <div className="flex items-center gap-3">
   <p className="text-[#141414] text-[32px] font-bold">{title}</p>
   <img
-    src="https://scontent.flhe7-2.fna.fbcdn.net/v/t1.15752-9/524329432_740902235323569_5882100790692912090_n.png?_nc_cat=103&ccb=1-7&_nc_sid=0024fc&_nc_ohc=y9tHp0m2pzUQ7kNvwF9mimm&_nc_oc=AdnIKPt1tdCY9sMWCe4UGl0K1XP19-7Z4AxhSWkZMp8hVWNX9xZOnmybwbjpoKtLv9U&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.flhe7-2.fna&oh=03_Q7cD2wFNHdontMv3W4vsSk8J3HOBFtL4D0z0PI8mZ_Ec9jjBMQ&oe=68B46937"
+    src="https://i.postimg.cc/8kYg5MhH/IMG-20250831-225219-475.jpg"
     alt="category icon"
     className="w-15 h-25 object-contain"
   />
